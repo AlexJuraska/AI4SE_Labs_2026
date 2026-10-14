@@ -10,7 +10,7 @@ from pathlib import Path
 
 DATA_DIR = Path(__file__).resolve().parent
 LABELS_PATH = DATA_DIR / "restaurants_dataset.csv"
-PREDICTIONS_PATH = DATA_DIR / "restaurants_dataset_predictions.csv"
+PREDICTIONS_PATH = DATA_DIR / "ape_results.csv"
 SCHEMA_PATH = DATA_DIR / "restaurants-schema.csv"
 DATABASE_PATH = DATA_DIR / "restaurants-db.txt"
 
