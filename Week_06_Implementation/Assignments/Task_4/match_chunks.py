@@ -19,7 +19,7 @@ sys.path.insert(0, str(TASK_3_DIRECTORY))
 
 import retrieve
 
-DEFAULT_N = 6
+DEFAULT_N = 5
 
 
 def embed_task(task: str) -> np.ndarray:
